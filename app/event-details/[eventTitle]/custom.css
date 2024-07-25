@@ -1,0 +1,116 @@
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: capitalize;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+div p p {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    text-align: left;
+    color: #525769;
+}
+
+div.h-full.pt-4 {
+    background-color: #e8eaf6;
+}
+
+button {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #212121;
+}
+
+div div a {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+td {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    color: #1976d2;
+}
+
+a td p {
+    color: #212121;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: none;
+    color: #311b92;
+}
+
+span {
+    font-size: 14px;
+    color: #212121;
+}
+
+ol li p {
+    font-size: 14px;
+    color: #424242;
+}
+
+div.rounded-3xl {
+    font-size: 14px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: #212121;
+}
+
+div.text-sm.font-normal.opacity-70 {
+    font-size: 14px;
+}
+
+button.inline-flex {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p.ml-4 {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+
+/* input.lg:w-[38rem].w-[22rem].text-sm.border.border-gray-300.rounded-2xl.p-2.pl-8 {
+    display: none;
+}*/
+
+input {
+    display: none;
+}

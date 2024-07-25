@@ -1,0 +1,153 @@
+/* Sections headings */
+
+.font-style-0 {
+    color: #0D0D0D;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/* categories names, forums name */
+
+.font-style-list {
+    font-family: "Kumbh Sans";
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.font-style-1-events {
+    /* headline: headlines, titles */
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.font-style-1-subtitle-events {
+    /* sub-headlines  */
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+/* forum description */
+
+.font-style-1-descriptions {
+    font-family: "Kumbh Sans";
+    font-weight: 500;
+    font-size: 16px;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+
+
+/* questions title */
+
+.font-style-2 {
+    color: #0D0D0D;
+    font-family: "Kumbh Sans";
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+/* descriptions of questions */
+
+.font-style-3 {
+    font-family: "Kumbh Sans";
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.font-style-3-vote {
+    font-family: "Kumbh Sans";
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+/* event descriptions and elements */
+
+.font-style-4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* username, follow button... */
+
+.font-style-5-username {
+    font-family: "Kumbh Sans";
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+/* post card */
+
+.font-style-6-post {
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease;
+}
+
+.font-style-6-post:hover {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.expand-content {
+    animation: expand 0.3s ease-in-out;
+}
+
+.font-style-1-headline {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes expand {
+    0% {
+        max-height: 20px;
+    }
+    100% {
+        max-height: none;
+    }
+}
+
+
+/* button animations */
+
+button {
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.postvotec {
+    transition: transform 0.3s ease-in-out;
+}
+
+.postvotec:hover {
+    transform: scale(1.1);
+}
+
+.font-style-7-hint {
+    /* hints below the input fields.   */
+}
+
+.bg-layout {}
+
+.bg-section {}
+
+.bg-card {}
+
+.bg-card-info {}
